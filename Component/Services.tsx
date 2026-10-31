@@ -62,7 +62,11 @@ export default function Services({ lang }: ServicesProps) {
               <p className="text-slate-600 text-sm leading-relaxed">{t.card1Desc}</p>
             </div>
             <div className="mt-8 flex justify-end">
-              <Link href="/services/wordpress" className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110">
+              <Link 
+                href="/services/wordpress" 
+                aria-label={lang === 'ar' ? 'الانتقال إلى خدمة ووردبريس' : 'Go to WordPress service'}
+                className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110"
+              >
                 <svg className="w-4 h-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                 </svg>
@@ -80,7 +84,11 @@ export default function Services({ lang }: ServicesProps) {
               <p className="text-slate-600 text-sm leading-relaxed">{t.card2Desc}</p>
             </div>
             <div className="mt-8 flex justify-end">
-              <Link href="/services/nextjs" className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110">
+              <Link 
+                href="/services/nextjs" 
+                aria-label={lang === 'ar' ? 'الانتقال إلى خدمة نيكست جي إس' : 'Go to Next.js service'}
+                className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110"
+              >
                 <svg className="w-4 h-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                 </svg>
@@ -100,7 +108,11 @@ export default function Services({ lang }: ServicesProps) {
               <p className="text-slate-600 text-sm leading-relaxed">{t.card3Desc}</p>
             </div>
             <div className="mt-8 flex justify-end">
-              <Link href="/services/ui-ux" className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110">
+              <Link 
+                href="/services/ui-ux" 
+                aria-label={lang === 'ar' ? 'الانتقال إلى خدمة تصميم الواجهات' : 'Go to UI/UX service'}
+                className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110"
+              >
                 <svg className="w-4 h-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                 </svg>
@@ -120,7 +132,11 @@ export default function Services({ lang }: ServicesProps) {
               <p className="text-slate-600 text-sm leading-relaxed">{t.card4Desc}</p>
             </div>
             <div className="mt-8 flex justify-end">
-              <Link href="/services/optimization" className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110">
+              <Link 
+                href="/services/optimization" 
+                aria-label={lang === 'ar' ? 'الانتقال إلى خدمة تحسين المواقع' : 'Go to optimization service'}
+                className="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white flex items-center justify-center shadow-md transition-transform group-hover:scale-110"
+              >
                 <svg className="w-4 h-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
                 </svg>
